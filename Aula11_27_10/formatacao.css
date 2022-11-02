@@ -1,0 +1,25 @@
+.menu{
+background-color: Khaki;
+color: brown;
+text-align: center;
+}
+
+.menu1{
+background-color: red;
+color: yellow;
+text-align: left;
+list-style-type: upper-roman; /* Para transformar em números romanos */
+}
+.menu2{
+background-color: yellow;
+color: red;
+text-align: left;  
+}
+.menu3{
+background-color: aqua;
+color: black;
+text-align: left;
+}
+/*ul{
+    list-style-type: none; /* Para retirar toda a estilização
+}*/

@@ -1,0 +1,38 @@
+/*--Reset da página--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tudo{
+    width: 600px;/*Largura em relação ao navegador*/
+   /* height: 300px;*/
+    border: 1px solid #00f;
+    margin: 0 auto; /*Alinhar a imagem ao centro*/
+}
+.tudo img{/*Formata as imagens que tão dentro da classe "tudo"*/
+    width: 100%; /*Largura em relação a class="tudo"*/
+    height: 100%;
+}
+h1{/*Formatação do texto */
+    background-color: rgb(2, 179, 233);
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+.sec1,.sec2{/*Criar as sessões dentro do próprio site*/
+    background-color: antiquewhite;
+    color: black;
+    height: 100vh;
+
+}
+nav{/*Para formatação do fundo do cabeçalho da página*/
+    background-color: rgb(2, 179, 233);
+}
+nav a{/*Para formatação do texto dos links */
+    color: white;
+    text-decoration: none;/* Tira o sublinhado dos links */
+}
+nav a:hover{ /* Para colocar o efeito de realce ao passar o mouse pelo link */
+    background-color: gray;
+}

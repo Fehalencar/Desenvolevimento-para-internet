@@ -1,0 +1,25 @@
+.azul{
+    background-color: blue;
+    color: white;
+}
+.roxo{
+    background-color:purple;
+}
+/*
+# para a criação de ID
+. para criação de classe
+para usar mais de uma classe na mesma linha
+é só separar as classes com um "espaço"
+*/
+body{
+    text-align: center;
+}
+.preto{
+    color: black;
+    text-align: left;
+}
+.vermelho{
+    background-color: tomato;
+    color: whitesmoke;
+    text-align: justify;
+}

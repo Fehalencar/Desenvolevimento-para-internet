@@ -1,0 +1,28 @@
+.cor1{ background-color: indianred; }
+.cor2{ background-color: green; }
+.cor3{ background-color: blue; }
+.cor4{ background-color: yellow; }
+.cor5{ background-color: #AAAAAA; }
+.cor6{
+    background-color: #110396;
+    color: #FFFFFF;
+}
+.fundo{
+    background-color: #110396;
+}
+
+/*
+Cox hexadecimal
+00 ------ FF
+00        255
+            #RRGGBB  
+Vermelho =  #FF0000
+Azul =      #0000FF
+Verde =     #00FF00
+
+Branco      #FFFFFF
+Preto       #000000
+
+Cinza escuro=      #555555
+Cinza claro=       #AAAAAA
+*/
