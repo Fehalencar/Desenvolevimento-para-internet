@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form name="form1" method="post" action="http://hebertphp.awardspace.us/recebe.php" autocomplete="off">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label for="login">Login</label> <input type="text" name="login" id="login" required placeholder="Digite seu login"><span>*</span><br>
+            <label for="senha">Senha</label> <input type="password" name="senha" id="senha" required placeholder="Digite sua senha"><span>*</span><br>
+            <label for="ra">RA</label><input type="number" name="ra" id="ra" required placeholder="Digite seu RA"><span>*</span><br>
+            <!-- Cep <input type="text" name="cep" id="cep" value="01012-123"><br> -->
+            <input type="hidden" name="local" value="São Paulo">
+        </fieldset>
+        <fieldset>
+            <legend>Lista de Compras</legend>
+            <input type="checkbox" name="cafe" id="cafe" disabled> Café<br><!--[disabled] é usado para bloquear o campo para qualquer seleção-->
+            <input type="checkbox" name="leite" id="leite"> Leite<br>
+            <input type="checkbox" name="pao" id="pao" checked> Pão<br><!--[checked] é usado para o campo ja aparecer marcado-->
+        </fieldset>
+        <fieldset>
+            <legend>Qual o nome da disciplina de quinta feira?</legend>
+            <input type="radio" name="aula" id="pfe" value="pfe">PFE<br><!--[radio] cria uma Checkbox com seleção única que não pode ser mudado-->
+            <input type="radio" name="aula" id="adc" value="adc">Arquit. computadores<br><!--[value] usado para nomear o item além do [name]-->
+            <input type="radio" name="aula" id="iot" value="iot">Internet das coisas<br>
+            <input type="radio" name="aula" id="dpi" value="dpi">Desenv. para internet<br>
+        </fieldset>
+       <input type="submit" value="Enviar 📨"><input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
+<!-- [windows][.] insere emoji 👍-->
+
+<!-- tag [name] é orbigatória para a criação dos campos dos furmulários para efeito de Front-End -->
+
+<!--No campo [radio] para que seja selecionado somente um item da lista, todos os [name]terão que ser iguais-->
+
+<!-- [ctrl]+[alt]+[seta baixo] | [alt]+[click] para selecionar várias linhas de uma vez-->
